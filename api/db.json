@@ -1,0 +1,129 @@
+{
+    "navBar" : [
+        {
+           "id" : "1",
+           "title" : "Anasayfa" ,
+           "link" : "/",
+           "images" : "/components/svg/GençAtatürk.svg"
+        },
+        {
+        
+           "id" : "2",
+           "title" : "Kitaplarımız"  ,
+           "link" : "/books"
+        },
+        {
+        
+            "id" : "3",
+            "title" : "Günün Sözü"  ,
+            "link" : "/day"
+         }
+    ],
+
+    "books":[
+       {
+          "id" : "1",
+          "bookTitle" :"Genç Atatürk",
+          "author" : "George W.Gawrych",
+          "page" : "340",
+          "size" : "14 x 23 cm",
+          "releaseDate" : "Kasım 2014",
+          "category" : "Tarih",
+          "price" : "₺ 19,25",
+          "image" : "GençAtatürk.svg",
+          "bookSummary" : "Mustafa Kemal’i devlet adamlığına hazırlayan askerlik sürecinin detaylı bir analizi... Bu analizde yazara yol gösteren de, arşiv belgeleriyle Mustafa Kemal’in notları, emirleri ve yazışmaları… Genç Atatürk bugüne kadar yazılmış Atatürk biyografilerinden farklı olarak, asker Atatürk’ü konu ediyor. George W. Gawrych 20. yüzyılın en olağanüstü devlet adamlarından birinin hakkıyla anlaşılabilmesi için, Mustafa Kemal’in askerlik kariyerinin derinlemesine incelenmesi gerektiğini ortaya koyuyor. Askerliğin, Mustafa Kemal’in eleştirel muhakemesini, kişisel değerleri ile duygusal zekâsını geliştirmesine, bir subay ve komutan olarak karşılaştığı sorunları çözerken teoriyi pratiğe dönüştürmesine nasıl yardım ettiğinin izini sürüyor. Genç Atatürk, Mustafa Kemal’i devlet adamlığına hazırlayan askerlik sürecinin detaylı bir analizi. Bu analizde yazara yol gösteren de, arşiv belgeleriyle Mustafa Kemal’in notları, emirleri ve yazışmaları… ABD’deki The Society of Military History’nin (Askeri Tarih Derneği) her yıl verdiği en iyi askeri biyografi ödülünü alan Genç Atatürk titiz bir araştırmanın ürünü. “İyi işlenmiş, kuramsal olarak zengin, iddiaları sağlam, titizlikle kaleme alınmış bir eser… Konu hakkındaki en iyi çalışma.” M. Şükrü Hanioğlu, Princeton Üniversitesi “Net bir dille yazılmış, kusursuz bir araştırma.” Dennis Showalter, Colorado Üniversitesi",
+          "authorAbout" : "George W. Gawrych, Baylor Üniversitesi tarih profesörüdür; ABD Askeri Akademisi’nde konuk öğretim üyesi olarak bulunduğu bir buçuk yıl dahil, ABD Ordu Kumandanlığı ve Fort Leavenorth (Kansas) Genelkurmay Akademisi’nde 19 yıl ders verdi. The Crescent and the Eagle: Ottoman Rule, Islam and the Albanians (1874-1913), The Albatross of Decisive Victory: War and Policy between Egypt and Israel in the 1967 and 1973 Arab-Israeli Wars’un yazarı; Armed Peacekeepers in Bosnia’nın da yazarlarından biridir."
+       },
+       {
+         "id" : "2",
+         "bookTitle" :"Umudun Rengi",
+         "author" : "Murat Özsan",
+         "page" : "336",
+         "size" : "13.5 x 19.5 cm",
+         "releaseDate" : "Aralık 2020",
+         "category" : "Roman",
+         "price" : "₺ 26,13",
+         "image" : "UmudunRengi.svg",
+         "bookSummary" : "Gerçek yola koyulduğunda hayal bir adım gerisinde kalır…. Umut, gözünü özel bir psikiyatri kliniğinde açtığında kafası karma karışıktır. Son birkaç gününü hatırlayamaz. Onunla ilgilenen doktor, aşırı dozda ilaç aldığı için kliniğe getirildiğini söyler. Umut psikoterapi seanslarında doktora kendini, ailesini ve yaşamını anlatır… “Bazı duygular için genç, bazıları içinse gereğinden yaşlı, fakat kimseden daha istekli ya da cesur olmayan”, geçmişi sırlar ve yalanlarla dolu genç adam belki de ilk defa yüreğini birine açar. Genç doktor, saklanması gereken bir hayata doğmuş ve bunun yüküyle baş etmeye çalışan bu genci anlamaya, sırlarını çözmeye başladığını düşündüğünde Umut bir kez daha onu şaşırtacaktır…Attilâ İlhan Roman Ödülü’ne değer bulunan Umudun Rengi, insan ruhunun derinliklerinde kopan fırtınalar ile Türkiye’nin yakın tarihine damga vuran toplumsal olayları usta işi bir kurguyla harmanlıyor… Gözlerimi açtığımda karanlığı duyabiliyorum artık. Tünelin taşlarına tünemiş senfonik iç çekişleri... Haklısın, umudumu kaybetmeden bekleyeceğim.İlahi varlık beni affedinceye kadar taşlardan birinde umudun rengine bürünerek sabırla bekleyeceğim... ",
+         "authorAbout" : "Murat Özsan, 1959 yılında Ankara’da doğdu. İlk, orta ve lise eğitimini Ankara’da tamamladı. ODTÜ İnşaat Mühendisliği Bölümü’nde bir yıl okuduktan sonra 1978 yılında girdiği Ankara Üniversitesi Tıp Fakültesi’nden 1984 yılında mezun oldu. Ankara Üniversitesi Tıp Fakültesi Tıbbi Mikrobiyoloji Anabilim Dalı’ndaki ihtisasını Ekim 1991’de tamamlayarak İnfeksiyon Hastalıkları ve Klinik Mikrobiyoloji uzmanı oldu. Ankara Üniversitesi Tıp Fakültesi’nde dekan yardımcılığı, anabilim dalı başkanlığı, Dörtyol Sağlık Hizmetleri Meslek Yüksekokulu’nda yönetim kurulu üyeliği ve müdür yardımcılığı gibi pek çok idari görevde bulunan Murat Özsan, halen aynı fakültenin Tıbbi Mikrobiyoloji Anabilim Dalı’nda profesör olarak görev yapıyor. Tıbbi faaliyetlerinin yanı sıra on yıldan fazladır edebiyatla da ilgilenen Murat Özsan, Geçmişin Rüyası (2009) ile Ve Ötesi (2014) romanlarının ardından 2018 yılında yayımlanan Umudun Rengi isimli üçüncü romanıyla 2019 Attilâ İlhan Roman Ödülü’ne layık görüldü. "
+      } ,
+      {
+         "id" : "3",
+         "bookTitle" :"Deli Tarla",
+         "author" : "Şermin Yaşar",
+         "page" : "192",
+         "size" : "14 x 23 cm",
+         "releaseDate" : "Ekim 2020",
+         "category" : "Öykü",
+         "price" : "₺ 22,68",
+         "image" : "DeliTarla.svg",
+         "bookSummary" : "Bazen hayat gizler kendini… Sımsıkı çekilmiş perdelerin ardına saklanan utangaç eviçlerinde, kapıların ardında, güneşin terk ettiği sokaklarda, o bıyıkaltı gülüşlerde, mühürlenmiş ağızlarda, yüze düşen gölgelerde, ketum yüreklerde, harflerin kıvrımlarında, kelimelerin dilsizliğinde, sonsuz susuşlarda, hiç düşülmeyen yollarda, hep beklenen aşklarda, hiç beklenmedik sonlarda gizler kendini hayat…Ta ki bir yazar onu bulup çıkarıncaya dek. Ta ki bir yazar onu bize anlatıncaya dek.Şermin Yaşar’dan “yeniden gülmeyi başarabilen insanların muamması” için öyküler. Deli Tarla gibi coşkulu, beklenmedik ve merhamete muhtaç…",
+         "authorAbout" : "1982 Berlin doğumlu olan Şermin Yaşar, Türk Dili ve Edebiyatı mezunudur. Yüksek lisansını yine edebiyat alanında yapmıştır. Uzun yıllar reklam ve medya sektöründe metin yazarlığı, reklam yazarlığı, kreatif direktörlük yapmış ve mesleğine devam ederken bir yandan da Oyuncu Anne isimli sosyal medya hesapları üzerinden çocuklarıyla oynadığı yaratıcı ve gelişimlerini destekleyici oyunları paylaşarak ülkenin dört bir yanındaki annelerle arkadaşlık ağ› kurmuştur. Başlarım Şimdi Anneliğe, Oyuncu Anne, Çok Hayal Kuran Çocuk, Oyun Takvimi, Kötü Alışkanlıklara İyi Öneriler, Dedemin Bakkalı, Dedemin Bakkalı Çırak, Tilki Masalları ve Tarihi Hoşça Kal Lokantası isimli kitapların yazarı olan Şermin Yaşar 3 çocuk annesidir."
+      }  ,
+      {
+         "id" : "4",
+         "bookTitle" :"Kaybolan",
+         "author" : "Tarık Tufan",
+         "page" : "392",
+         "size" : "13.5 x 19.5 cm",
+         "releaseDate" : "Eylül 2020",
+         "category" : "Roman",
+         "price" : "₺ 28,35",
+         "image" : "Kaybolan.svg",
+         "bookSummary" : "Tarık Tufan, hatıralarla yüzleşmenin, ilk aşkın ve kendini aramanın evrensel hikâyesini anlatıyor. Kaybolan, yaralı dünyalarda, kırık hayatlarda, saklı hüzünlerde ve İstanbul sokaklarında dolanan bir roman. Hayatın en çetrefilli meselesi, çözülmesi en zor sırrı, gerçekte kim olduğumuzdur. Çünkü herkes hayatının bir yerinde kaybolur. Bazıları kendisini bulabilmek için önce çok eskiden kaybettiklerini bulmak zorundadır. “Utanmayı bir kenara bırakıp gerçeği itiraf ettiğim bugün bile hâlâ kendi hayatımı değil, başkalarının hayatını yaşıyorum. Fason hayat. Bir gece düşüncelere dalmış boğuşurken aklıma geldi bu laf; o gün bugündür böyle tanımlıyorum, sipariş üzerine yaşanmış, ısmarlama, düşük maliyetli, fason hayat. Doğum günümde sadece bunun hayal kırıklığını hissettim. Uzunca bir vakit kayıtsız kalmaya çalıştığım hatalarım için şimdi pişmanlık, hüzün ve keder duyuyorum. Her şeyin başka türlü olmasını arzu ederdim, olmadı. Artık kim olduğumu, kimin için yaşadığımı doğru dürüst düşünemiyorum bile.” Kaybolmanın döngüsüne sıkışmış bir adam ve iki kadın. Kendilerini bulabilmek için çıkışı ararlarken ödeyecekleri bedel gitgide büyüyor. ",
+         "authorAbout" : "Tarık Tufan 1973 yılında İstanbul’da doğdu. Kabataş Erkek Lisesi’ni tamamladıktan sonra üniversite eğitimini İstanbul Üniversitesi Edebiyat Fakültesi’nde Felsefe bölümünde gerçekleştirdi. Marmara Üniversitesi Orta Doğu ve İslam Ülkeleri Araştırmaları Enstitüsü’nde Sosyoloji alanında yüksek lisansını tamamladı. Radyo ve televizyonlarda kültür-sanat alanında programlar gerçekleştirdi. İlk kitabı “Kekeme Çocuklar Korosu” 2000 yılında yayımlandı. Ardından “Kraliçenin Pireleri” (2002), “Ve Sen Kuş Olur Gidersin” (2004), “Hayal Meyal” (2007), “Bir Adam Girdi Şehre Koşarak” (2010), “Şanzelize Düğün Salonu” (2015), “Beni Onlara Verme” (2017) ve “Düşerken” (2018) yayımlandı. Romanlarının yanı sıra belgesel ve kurmaca film senaryoları yazmaya devam ediyor. “Uzak İhtimal” filmiyle 2009 yılında İstanbul Film Festivali’nde, “Yozgat Blues” filmiyle 2013 yılında Adana Altın Koza Film Festivali’nde “En İyi Senaryo” ödüllerini kazandı. Yazdıkları çeşitli dillere çevrildi. Edebiyat dergilerinde öyküleri yayımlanıyor."
+      }  ,
+      {
+         "id" : "5",
+         "bookTitle" :"Ay Işığı",
+         "author" : "Akın Aksu",
+         "page" : "136",
+         "size" : "13.5 x 19.5 cm",
+         "releaseDate" : "Mart 2021",
+         "category" : "Roman",
+         "price" : "₺ 25,00",
+         "image" : "Ayisigi.svg",
+         "bookSummary" : "Ay ışığı, zihinsel bir tutulmanın ritmidir. Zamanda dağılan belleğin, coğrafyanın uğultusu içinde parçalanan benliğin yolculuğu. Ayın o tekinsiz parıltısı altında her şey müphem bir varoluş halinde. Yaklaştıkça şekil değiştiren, görünmez olan evrenin ortasında bütün sözcükler aya söyleniyor, bütün düşünceler ayın o buğulu halesine takılıyor. Köyleri, kasabaları, yaşantıları, hikâyeleri, gidilecek ve dönülecek yolları aynılaştıran o anlamsız beyazlıkta, bütün varoluş ayın yanılsamasına tutulmuş.",
+         "authorAbout" : "1986 yılında Çanakkale’de doğdu. Çanakkale Hüseyin Akif Terzioğlu Anadolu Güzel Sanatlar Lisesi’nden sonra ÇÖMÜ Güzel Sanatlar Fakültesi’nden mezun oldu. Çeşitli dergi ve gazetelerde çalıştı, karma sergilere katıldı. Nuri Bilge Ceylan ve Ebru Ceylan ile Ahlat Ağacı filminin senaryosunu yazdı."
+      }  ,
+      {
+         "id" : "6",
+         "bookTitle" :"Radyoda Şarkımız Çalıyor",
+         "author" : "Emre Saraçoğlu",
+         "page" : "272",
+         "size" : "13.5 x 19.5 cm",
+         "releaseDate" : "Haziran 2019",
+         "category" : "Roman",
+         "price" : "₺ 22,95",
+         "image" : "RadyodaŞarkımızÇalıyor.svg",
+         "bookSummary" : "“Sadece hayallerimin ucuna tutunarak yükseliyorum o evden, o kafesten. Kafesin tellerini büküp dışarı, yukarılara, şehrin yeni ufuklarına çıkıyorum. Yukarılardan evimize bakıp birkaç damla yaş döküyorum, elimden bir şey gelmiyor, gitmeliyim. Ses dergisinin eski sayılarından gözümü alamadığım hayatların içine karışmalıyım. Nasıl yapacağımı bilmiyorum ama sanki görünmez bir el, bir ışık bana yolu açacak, gidip oralara kurulacağım. Beyoğlu beni bekliyor; vitrinler, yeni kıyafetler, balolar beni çağırıyor, adımı fısıldıyor… Yıldızlar doğar, karanlık dağılır.” Yeşilçam’ın yıldız eskisi Handan Leyla ile satmayan aşk romanlarının yazarı, İstanbul’da eski bir köşkte bir araya gelir; sinemanın parlak günlerine, pırıltılı anlara, unutulmaz aşklara ve hepimizin zihnine kazınmış repliklere uzanan bir yolculuk başlar. ",
+         "authorAbout" : "Emre Saraçoğlu, 79 doğumlu. İstanbul’da yaşıyor. Kitapları, filmleri ve sakinliği seviyor."
+      }  ,
+      {
+         "id" : "7",
+         "bookTitle" :"Osmanlı İmparatorluğu'nun Arapları",
+         "author" : "Bruce Masters",
+         "page" : "272",
+         "size" : "14 x 23 cm",
+         "releaseDate" : "Haziran 2017",
+         "category" : "Tarih",
+         "price" : "₺ 17,45",
+         "image" : "OsmanlıİmparatorluğununArapları.svg",
+         "bookSummary" : "Osmanlılar Arap topraklarının büyük kısmını dört yüzyıl boyunca idare ettiler. Bruce Masters Arapların Osmanlı tebaası olarak tarihsel deneyimlerini, arka planda yaşanan kültürel ve toplumsal değişikliklerin ışığında ele alıyor. Milliyetçi Arap tarih yazımında Türk zulmü olarak değerlendirilen bu dönemin gerçekte nasıl sürdüğünü, Arapların Birinci Dünya Savaşı'na kadar Osmanlı yönetimine neden başkaldırmadıklarını ortaya koyuyor. Masters, geniş bir coğrafyaya yayılan Arap topraklarının idaresinin, merkezdeki Osmanlı yönetimine sadakat gösteren yerel aktörlerin işbirliği ölçüsünde başarılı olduğunu iddia ediyor. Arap uleması ve ayanının, Osmanlı Devleti'ni Sünni İslam'ın koruyucusu olduğu müddetçe meşru gördüğünü, öte yandan Osmanlı sultanlarının halifelik iddiasının Arap topraklarındaki kabulünün sınırlı olduğunu gösteriyor. Osmanlı İmparatorluğu'nun Arapları, bu uzun tarihe dair nitelikli bir araştırma ve Osmanlı-Arap ilişkileri üzerine temel bir eser…",
+         "authorAbout" : "Bruce Masters, ABD’deki Wesleyan Üniversitesi Tarih Bölümü’nde öğretim üyesidir."
+      }  ,
+      {
+         "id" : "8",
+         "bookTitle" :"Bana Borcun Var",
+         "author" : "Murat Özsan",
+         "page" : "240",
+         "size" : "13.5 x 19.5 cm",
+         "releaseDate" : "Aralık 2020",
+         "category" : "Roman",
+         "price" : "₺ 22,78",
+         "image" : "BanaBorcunVar.svg",
+         "bookSummary" : "Hayat sürprizlerden mi hoşlanıyor yoksa rastlantılardan mı? Belki de arada yazı tura atıyordur. ODTÜ’de öğrenciyken birdenbire kendini bambaşka bir hayatın içinde bulan Şafak, yalnız ve lanetli bir adam olarak geçirdiği yıllardan sonra Büyükada’ya döner. Adada tanıştığı Deniz ona arkadaşlık ederken geçmişin mumunu da yeniden alevlendirir. Şafak’ın düşünmek istemediği anılar bir türlü yakasını bırakmaz. Sevdiklerini bir bir elinden alan hayatla hesaplaşma ve yüzleşme vaktidir artık. Biri aydınlığa, diğeri karanlığa açılan iki yol vardır ve Şafak’ın aydınlığa ulaşmak için karanlık yoldan geçmesi kaçınılmazdır. Attilâ İlhan Roman Ödülü sahibi Murat Özsan’dan aşka, kavuşamamaya, cesarete, tercihlere dair sürprizli bir roman Bana Borcun Var… Yaralarla uyanacağımızı bilmiyorduk. Sevgilerin insanlara neler yaptırabileceğini, nice yıkımların altında da hiç beklenmedik sevgilerin yatabileceğini... Mutlulukları bir hiç uğruna kaybettiğimizi öğrendiğimizde suçlunun ve masumun kim olduğunu düşünecektik. Aslında hepsi sevgide buluşuyordu; mutluluk da, mutsuzluk da, suçluluk da, masumiyet de... O zaman kime kızacaktık?",
+         "authorAbout" : "Murat Özsan, 1959 yılında Ankara’da doğdu. İlk, orta ve lise eğitimini Ankara’da tamamladı. ODTÜ İnşaat Mühendisliği Bölümü’nde bir yıl okuduktan sonra 1978 yılında girdiği Ankara Üniversitesi Tıp Fakültesi’nden 1984 yılında mezun oldu. Ankara Üniversitesi Tıp Fakültesi Tıbbi Mikrobiyoloji Anabilim Dalı’ndaki ihtisasını Ekim 1991’de tamamlayarak İnfeksiyon Hastalıkları ve Klinik Mikrobiyoloji uzmanı oldu. Ankara Üniversitesi Tıp Fakültesi’nde dekan yardımcılığı, anabilim dalı başkanlığı, Dörtyol Sağlık Hizmetleri Meslek Yüksekokulu’nda yönetim kurulu üyeliği ve müdür yardımcılığı gibi pek çok idari görevde bulunan Murat Özsan, halen aynı fakültenin Tıbbi Mikrobiyoloji Anabilim Dalı’nda profesör olarak görev yapıyor. Tıbbi faaliyetlerinin yanı sıra on yıldan fazladır edebiyatla da ilgilenen Murat Özsan, Geçmişin Rüyası (2009) ile Ve Ötesi (2014) romanlarının ardından 2018 yılında yayımlanan Umudun Rengi isimli üçüncü romanıyla 2019 Attilâ İlhan Roman Ödülü’ne layık görüldü."
+      }  
+    ]
+}
