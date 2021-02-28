@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bookSection {
+  padding-top: 120px;
+  margin: auto;
+}
+
+.bookSection__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 65px;
+}
+
+.bookSection__card img {
+  padding: 12px;
+  background-color: #fafafa;
+  -webkit-box-shadow: 0px 4px 15px rgba(116, 116, 116, 0.25);
+          box-shadow: 0px 4px 15px rgba(116, 116, 116, 0.25);
+  border-radius: 5px;
+  width: 120px;
+  height: 195px;
+  -webkit-transition: ease-in .2s;
+  transition: ease-in .2s;
+}
+
+.bookSection__cardContent {
+  text-align: center;
+}
+
+.bookSection__cardContent h2 {
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 4px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.bookSection__cardContent h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.bookSection__cardContent span {
+  font-size: 14px;
+}
+
+.bookSection__cardContent h3 {
+  line-height: 50px;
+  color: #E17E7E;
+}
+
+.bookSection__cardContent h4 {
+  background: #009AB8;
+  border-radius: 5px;
+  padding: 9px 13px;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: ease-in .3s;
+  transition: ease-in .3s;
+  display: inline-block;
+}
+
+.bookSection__cardContent h4:hover {
+  background: #017e97;
+  -webkit-transition: ease-in .3s;
+  transition: ease-in .3s;
+  -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+  .bookSection {
+    padding-top: 150px;
+  }
+  .bookSection__card img {
+    width: 144px;
+    height: 235px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .bookSection__card img {
+    width: 166px;
+    height: 271px;
+  }
+}
+/*# sourceMappingURL=books.css.map */
