@@ -3,8 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --bgColor:#E17E7E;
+}
+
 .header{
-    border-top: 5px solid #E17E7E;
+    border-top: 5px solid var(--bgColor);
     text-align: center;
     box-shadow:0px 0px 4px rgba(0,0,0,0.2);
     padding-top: 15px;
@@ -97,7 +102,7 @@
             &::after{
                 content: "";                
                 position: absolute;
-                background-color: #E17E7E;
+                background-color: var(--bgColor);
                 width: 15px;
                 height: 15px;
                 left: -5px;
