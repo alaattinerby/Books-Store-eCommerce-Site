@@ -9,20 +9,22 @@ import {
 import {Books, Day, Details, Header,Home} from "./components/index"
 import "./App.css"
 
+
 class App extends Component{
   render(){
     return(
       <>
-        <Router>
-          <Header/>
-       
-        <Switch>
-          <Route path="/books" component={Books} exact/>
-          <Route path="/books/:id" component={Details}/>
-          <Route path="/day" component={Day}/>
-          <Route path="/" component={Home}/>
-        </Switch> 
-        </Router>
+      
+          <Router>
+            <Header/>
+        
+          <Switch>
+            <Route path="/books" component={Books} exact/>
+            <Route path="/books/:id" component={Details}/>
+            <Route path="/day" component={Day}/>
+            <Route path="/" component={Home}/>
+          </Switch> 
+          </Router>
       </>
     )
   }
