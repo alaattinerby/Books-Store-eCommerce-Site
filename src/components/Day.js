@@ -5,7 +5,7 @@ function Day(){
         <>
          <section className="sectionDay">
             <div className="container">
-                Günün Sözleri Gelecek
+                Günün Sözleri
             </div>
         </section>
         </>

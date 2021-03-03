@@ -5,7 +5,7 @@ function Home() {
         <>
         <section className="sectionHome">
             <div className="container">
-                Anasayfamız olacak
+                Anasayfa
             </div>
         </section>
         </>
