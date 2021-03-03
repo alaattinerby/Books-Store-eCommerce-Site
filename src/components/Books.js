@@ -25,15 +25,15 @@ function Books(){
                         {links.map(book => (
                             <div className="col-6 col-sm-4 col-md-4 col-lg-3">
                                 <div className="bookSection__card" key={book.id}>
-                                <Link to={`/books/${book.id}`}>
-                                    <img src={require(`../components/svg/${book.image}`).default} alt={book.title}/>
-                                </Link>
-                                <div className="bookSection__cardContent">
-                                    <h2><Link to={`/books/${book.id}`}>{book.bookTitle}</Link></h2>
-                                    <span>{book.author}</span>
-                                    <h3>{book.price}</h3>
-                                    <h4>Sepete Ekle</h4>
-                                </div>
+                                    <Link to={`/books/${book.id}`}>
+                                        <img src={require(`../components/svg/${book.image}`).default} alt={book.title}/>
+                                    </Link>
+                                    <div className="bookSection__cardContent">
+                                        <h2><Link to={`/books/${book.id}`}>{book.bookTitle}</Link></h2>
+                                        <span>{book.author}</span>
+                                        <h3>{book.price}</h3>
+                                        <h4>Sepete Ekle</h4>
+                                    </div>
                                 </div>
                             </div>
                         ))}
