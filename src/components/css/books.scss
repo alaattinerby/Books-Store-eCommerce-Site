@@ -26,7 +26,13 @@
       border-radius: var(--borderRadius);
       width: 120px;
       height: 195px;
-      transition: ease-in 0.2s;
+      transition: ease-in 0.3s;
+
+      &:hover {
+        -webkit-filter: blur(2px);
+        filter: blur(2px);
+        transition: ease-in 0.3s;
+      }
     }
   }
 
