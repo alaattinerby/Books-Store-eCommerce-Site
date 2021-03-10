@@ -39,8 +39,15 @@
   border-radius: var(--borderRadius);
   width: 120px;
   height: 195px;
-  -webkit-transition: ease-in 0.2s;
-  transition: ease-in 0.2s;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.bookSection__card img:hover {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
 }
 
 .bookSection__cardContent {
