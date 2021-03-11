@@ -31,7 +31,7 @@ function Books(){
                                     <div className="bookSection__cardContent">
                                         <h2><Link to={`/books/${book.id}`}>{book.bookTitle}</Link></h2>
                                         <span>{book.author}</span>
-                                        <h3>{book.price}</h3>
+                                        <h3>{book.price} <span>{book.oldPrice}</span></h3>
                                         <h4>Sepete Ekle</h4>
                                     </div>
                                 </div>
