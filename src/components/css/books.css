@@ -78,6 +78,10 @@
   color: #e17e7e;
 }
 
+.bookSection__cardContent h3 span {
+  text-decoration: line-through;
+}
+
 .bookSection__cardContent h4 {
   background: #009ab8;
   border-radius: var(--borderRadius);
