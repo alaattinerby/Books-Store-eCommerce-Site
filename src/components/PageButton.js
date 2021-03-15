@@ -1,4 +1,5 @@
 import React from 'react'
+import "./css/pageButton.css"
 
 function PageButton(){
     return(
