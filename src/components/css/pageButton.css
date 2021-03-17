@@ -5,14 +5,20 @@
           box-sizing: border-box;
 }
 
-.pageNumber span {
+.pageNumberSection {
+  background: #fafafa;
+  padding: 25px;
+}
+
+.pageNumberSection .pageNumber span {
   border: 1px solid #B7B7B7;
   border-radius: 3px;
   padding: 5px 10px;
   cursor: pointer;
+  background-color: #fff;
 }
 
-.pageNumber span:not(:last-child) {
+.pageNumberSection .pageNumber span:not(:last-child) {
   margin-right: 10px;
 }
 /*# sourceMappingURL=pageButton.css.map */
