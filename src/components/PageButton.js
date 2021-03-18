@@ -7,7 +7,7 @@ function PageButton(){
             <section className="pageNumberSection">
                 <div className="container">
                     <div className="pageNumber">
-                        <span>1</span>
+                        <span className="active">1</span>
                         <span>2</span>
                     </div>
                 </div>
