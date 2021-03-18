@@ -10,15 +10,38 @@
   padding: 25px;
 }
 
+.pageNumberSection .pageNumber {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .pageNumberSection .pageNumber span {
-  border: 1px solid #B7B7B7;
+  border: 1px solid #b7b7b7;
   border-radius: 3px;
   padding: 5px 10px;
   cursor: pointer;
   background-color: #fff;
+  -webkit-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
 }
 
 .pageNumberSection .pageNumber span:not(:last-child) {
   margin-right: 10px;
+}
+
+.pageNumberSection .pageNumber span:not(.active):hover {
+  background-color: #e17e7e;
+  color: #fff;
+  -webkit-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.pageNumberSection .pageNumber .active {
+  background-color: #e17e7e;
+  color: #fff;
 }
 /*# sourceMappingURL=pageButton.css.map */
