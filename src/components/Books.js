@@ -2,6 +2,7 @@ import React, {Component, useState, useEffect} from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
 import "./css/books.css"
+import PageButton from "./PageButton"
 
 function Books(){
 
@@ -39,6 +40,9 @@ function Books(){
                         ))}
                     </div>
                 </div>
+            </section>
+            <section>
+                <PageButton/>
             </section>
         </>
     )
