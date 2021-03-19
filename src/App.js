@@ -6,7 +6,7 @@ import {
   Route,
   Link
 } from "react-router-dom"
-import {Books, Day, Details, Header,Home, PageButton} from "./components/index"
+import {Books, Day, Details, Header,Home} from "./components/index"
 import "./App.css"
 
 
@@ -24,7 +24,6 @@ class App extends Component{
               <Route path="/" component={Home}/>
             </Switch> 
             
-            <PageButton/>
           </Router>
       </>
     )
