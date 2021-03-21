@@ -5,6 +5,11 @@
           box-sizing: border-box;
 }
 
+:root {
+  --colorWhite: #fff;
+  --bgColor: #e17e7e;
+}
+
 .pageNumberSection {
   background: #fafafa;
   padding: 25px;
@@ -24,7 +29,7 @@
   border-radius: 3px;
   padding: 5px 10px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: var(--colorWhite);
   -webkit-transition: 0.1s ease-in;
   transition: 0.1s ease-in;
 }
@@ -34,14 +39,14 @@
 }
 
 .pageNumberSection .pageNumber span:not(.active):hover {
-  background-color: #e17e7e;
-  color: #fff;
+  background-color: var(--bgColor);
+  color: var(--colorWhite);
   -webkit-transition: 0.1s ease-in;
   transition: 0.1s ease-in;
 }
 
 .pageNumberSection .pageNumber .active {
-  background-color: #e17e7e;
-  color: #fff;
+  background-color: var(--bgColor);
+  color: var(--colorWhite);
 }
 /*# sourceMappingURL=pageButton.css.map */
