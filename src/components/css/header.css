@@ -74,13 +74,14 @@
   margin-bottom: 20px;
   text-decoration: none;
   outline: none;
-  color: black;
+  color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: bolder;
 }
 
 .header .navBar a:hover {
-  font-weight: bold;
+  color: var(--bgColor);
   -webkit-transition: ease-in 0.1s;
   transition: ease-in 0.1s;
 }
