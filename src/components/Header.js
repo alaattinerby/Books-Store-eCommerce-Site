@@ -5,6 +5,7 @@ import bars from "./svg/bars.svg"
 import basket from "./svg/basket.svg"
 import axios from 'axios'
 import menuToggle from "./menuToggle"
+import scrollSlide from "./scroll"
 import { Link } from 'react-router-dom'
 
 
@@ -25,7 +26,10 @@ function Header(){
 
         return (
             <>
-            <header className="header">
+            <header className="header" onLoad={scrollSlide}>
+                <div className="scroll-Container">
+                    <div className="scroll" id="scroll-Slide"></div>
+                </div>
                 <div className="container">
                     <a href="/"><img src={logo} className="header__logo"></img></a>
                     <input type="checkbox" id="toggler" class="header__toggler"/>
