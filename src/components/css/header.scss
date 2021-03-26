@@ -9,7 +9,6 @@
 }
 
 .header {
-  border-top: 5px solid var(--bgColor);
   text-align: center;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
   padding-top: 15px;
@@ -19,6 +18,17 @@
   position: fixed;
   z-index: 1;
   background-color: white;
+
+  .scroll-Container {
+    margin-top: -15px;
+    margin-bottom: 15px;
+    background-color: var(--bgColor);
+
+    .scroll {
+      border-top: 5px solid #971c53;
+      width: 0;
+    }
+  }
 
   .container {
     position: relative;
